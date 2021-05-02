@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 273.266 s <<< FAILURE! - in TestSuite
+Project.project1.HomePage.homePageNavig[nonrestricted@email, pass, nonrestricteduser](1)  Time elapsed: 55.622 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (1324, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BFCFUBE', ip: '192.168.1.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 83712d3615637014d1dc0c94a443ff69
+	at Project.project1.HomePage.homePageNavig(HomePage.java:37)
+

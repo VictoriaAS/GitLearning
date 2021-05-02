@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-30T09:24:06 CDT" name="Suite" finished-at="2021-04-30T09:25:26 CDT" duration-ms="79666">
+    <groups>
+    </groups>
+    <test started-at="2021-04-30T09:24:06 CDT" name="Validate Title" finished-at="2021-04-30T09:24:49 CDT" duration-ms="42194">
+      <class name="Project.project1.ValidateTitle">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:Project.project1.ValidateTitle@332a7fce]" started-at="2021-04-30T09:24:06 CDT" name="getbrowser" finished-at="2021-04-30T09:24:43 CDT" duration-ms="36483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method signature="homePageNavig()[pri:0, instance:Project.project1.ValidateTitle@332a7fce]" started-at="2021-04-30T09:24:43 CDT" name="homePageNavig" finished-at="2021-04-30T09:24:45 CDT" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavig -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Project.project1.ValidateTitle@332a7fce]" started-at="2021-04-30T09:24:45 CDT" name="closeTest" finished-at="2021-04-30T09:24:49 CDT" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Project.project1.ValidateTitle -->
+    </test> <!-- Validate Title -->
+    <test started-at="2021-04-30T09:24:52 CDT" name="Validate home page" finished-at="2021-04-30T09:25:15 CDT" duration-ms="22772">
+      <class name="Project.project1.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Project.project1.HomePage@2f08c4b]" started-at="2021-04-30T09:24:52 CDT" name="initialize" finished-at="2021-04-30T09:24:56 CDT" duration-ms="3607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="homePageNavig(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Project.project1.HomePage@2f08c4b]" started-at="2021-04-30T09:24:56 CDT" name="homePageNavig" data-provider="getData" finished-at="2021-04-30T09:25:09 CDT" duration-ms="12797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricteduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavig -->
+        <test-method signature="homePageNavig(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Project.project1.HomePage@2f08c4b]" started-at="2021-04-30T09:25:09 CDT" name="homePageNavig" data-provider="getData" finished-at="2021-04-30T09:25:15 CDT" duration-ms="5992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavig -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Project.project1.HomePage@2f08c4b]" started-at="2021-04-30T09:25:15 CDT" name="closeTest" finished-at="2021-04-30T09:25:15 CDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Project.project1.HomePage -->
+    </test> <!-- Validate home page -->
+    <test started-at="2021-04-30T09:25:16 CDT" name="Validate Navigation bar" finished-at="2021-04-30T09:25:26 CDT" duration-ms="10570">
+      <class name="Project.project1.NavBar">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:Project.project1.NavBar@49f5c307]" started-at="2021-04-30T09:25:16 CDT" name="startbrowser" finished-at="2021-04-30T09:25:25 CDT" duration-ms="9704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method signature="homePageNavig()[pri:0, instance:Project.project1.NavBar@49f5c307]" started-at="2021-04-30T09:25:25 CDT" name="homePageNavig" finished-at="2021-04-30T09:25:26 CDT" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavig -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:Project.project1.NavBar@49f5c307]" started-at="2021-04-30T09:25:26 CDT" name="closeTest" finished-at="2021-04-30T09:25:26 CDT" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Project.project1.NavBar -->
+    </test> <!-- Validate Navigation bar -->
+  </suite> <!-- Suite -->
+</testng-results>
