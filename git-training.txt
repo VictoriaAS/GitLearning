@@ -1,0 +1,32 @@
+<listeners>
+	
+	<listener class-name = "Project.project1.Listeners" />
+	
+	</listeners>
+Attribute name "cr" associated with an element type "stener" must be followed by the ' = ' character
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+	<suite name="Suite1" parallel ="classes">
+	<listeners>
+		<listener class-name = "Project.project1.Listeners" />
+		</listeners>
+	<test name="Test1">
+	<classes>
+	
+	<class name="Project.project1.ValidateTitle" />
+	<class name="Project.project1.NavBar" />
+	<class name="Project.project1.HomePage" />
+	</classes>
+	</test><!-- Test -->
+   
+	</suite>
+
+<plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+        </plugin>
+C:\Users\PC\eclipse-workspace\project1\pom.xml
+
+C:\Users\PC\eclipse-workspace\project1
